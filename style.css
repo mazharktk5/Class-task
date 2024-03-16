@@ -73,6 +73,13 @@ fieldset{
     border-radius: 50px;
     padding: 10px;
     position: absolute;
+    
     transform: translateY(-10%);
     
 }
+
+
+#pass + .bx-lock-open {
+    position: absolute;
+    right: 0px;
+  }
