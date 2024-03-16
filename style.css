@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    
+}
+fieldset { display: inline-block; 
+background-color: darkcyan;
+width: 400px; 
+height: 500px;
+
+
+border-radius: 5px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+#pass{
+    border-radius: 20px;
+    width: 180px;
+    padding: 5px;
+
+}
+#txt{
+    border-radius: 30px;
+    width: 180px;
+    padding: 5px;
+}
+#btn{
+    border-radius: 30px;
+    width: 185px;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
