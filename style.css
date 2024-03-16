@@ -5,6 +5,7 @@ h1{
 
 .container{
     text-align: center;
+    position: relative;
     
 }
 fieldset { display: inline-block; 
@@ -35,6 +36,8 @@ body{
     padding-bottom: 6px;
     padding-right: 50px;
     border: none;
+    background-color: powderblue;
+    
 }
 
 #txt{
@@ -45,6 +48,8 @@ body{
     padding-bottom: 6px;
     padding-right: 50px;
     border: none;
+    background-color:powderblue;
+    border-color: white;
 }
 #btn{
     border-radius: 30px;
@@ -54,6 +59,8 @@ body{
     padding-bottom: 6px;
     padding-right: 70px;
     border: none;
+    
+    background-color:whitesmoke;
 }
 
 fieldset{
@@ -62,7 +69,10 @@ fieldset{
     align-items: center;
 }
 .container i{
-    background-color: white;
+    background-color:white;
     border-radius: 50px;
-    padding: 8px;
+    padding: 10px;
+    position: absolute;
+    transform: translateY(-10%);
+    
 }
