@@ -60,7 +60,15 @@ body{
     padding-right: 70px;
     border: none;
     
+    
+    cursor: pointer;
+    
+    
     background-color:whitesmoke;
+}
+
+#btn:hover {
+    background-color:lightgray; 
 }
 
 fieldset{
@@ -75,6 +83,8 @@ fieldset{
     position: absolute;
     
     transform: translateY(-10%);
+
+
     
 }
 
