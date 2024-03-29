@@ -37,7 +37,8 @@ body{
     padding-right: 50px;
     border: none;
     background-color: powderblue;
-    
+    border: 2px solid rgb(126, 42, 27);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 #txt{
@@ -47,9 +48,11 @@ body{
     padding-top: 6px;
     padding-bottom: 6px;
     padding-right: 50px;
-    border: none;
+    border: 2px solid rgb(126, 42, 27);
     background-color:powderblue;
-    border-color: white;
+    
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 #btn{
     border-radius: 30px;
@@ -58,7 +61,8 @@ body{
     padding-top: 6px;
     padding-bottom: 6px;
     padding-right: 70px;
-    border: none;
+    border: 2px solid rgb(126, 42, 27);
+
     
     
     cursor: pointer;
@@ -69,6 +73,7 @@ body{
 
 #btn:hover {
     background-color:lightgray; 
+
 }
 
 fieldset{
@@ -92,4 +97,5 @@ fieldset{
 #pass + .bx-lock-open {
     position: absolute;
     right: 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
